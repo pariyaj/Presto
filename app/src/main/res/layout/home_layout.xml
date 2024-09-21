@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_layout"
+    android:clickable="true"
+    android:focusable="true"
+    android:fitsSystemWindows="true"
+    android:scrollbars="vertical"
+    >
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toLeftOf="@id/cardOne"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:text="@string/hometxt2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardOne"
+        app:cardCornerRadius="32dp"
+        android:backgroundTint="@color/colorCard"
+        android:layout_margin="10dp"
+        android:layout_width="410dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="210dp"
+        android:fitsSystemWindows="true"
+        app:cardElevation="16dp">
+
+        <ImageView
+            android:id="@+id/imageOne"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:cropToPadding="true"
+            android:src="@drawable/books"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/hometxt"
+        app:cardCornerRadius="32dp">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardThree"
+        android:layout_width="600dp"
+        android:layout_height="320dp"
+        app:cardCornerRadius="32dp"
+        android:layout_below="@id/cardOne"
+        android:backgroundTint="@color/colorGray"
+        android:layout_toLeftOf="@id/cardFour"
+        android:layout_margin="17dp"
+        android:fitsSystemWindows="true"
+        android:fadingEdge="horizontal"
+        app:cardElevation="16dp">
+
+        <ImageView
+            android:id="@+id/imageTwo"
+            android:cropToPadding="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/steinway2" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardFour"
+        android:layout_width="260dp"
+        android:layout_height="330dp"
+        android:backgroundTint="@color/colorGray"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="16dp"
+        android:layout_below="@id/cardOne"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:layout_alignParentEnd="true"
+        android:fitsSystemWindows="true">
+
+            <ImageView
+                android:id="@+id/imageThree"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:src="@drawable/metro"
+                android:layout_gravity="center"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/hometxt"
+        android:layout_width="540dp"
+        android:layout_height="64dp"
+        android:padding="16dp"
+        android:layout_below="@id/cardFour"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fitsSystemWindows="true"
+        android:gravity="left"
+        android:text="@string/hometxt"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>

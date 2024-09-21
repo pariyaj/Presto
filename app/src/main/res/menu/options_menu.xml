@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.np.presto.Activity.MainActivity">
+
+    <item
+        android:id="@+id/lang"
+        android:title="@string/lang"
+        />
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        />
+</menu>
