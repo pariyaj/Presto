@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "32789443952",
+    "firebase_url": "https://presto-b86a9.firebaseio.com",
+    "project_id": "presto-b86a9",
+    "storage_bucket": "presto-b86a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32789443952:android:919f84212b39b62f",
+        "android_client_info": {
+          "package_name": "com.example.np.presto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32789443952-qc4tr68jj1mju4eb2nchfkgrci3rg4ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.np.presto",
+            "certificate_hash": "e3a245c06c64013e2b7b27d2cdb99f9633648f9c"
+          }
+        },
+        {
+          "client_id": "32789443952-al58jhtoo0gvfmupu1261ahdfljp0muu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZQfwcvBv7if8HJyXcaesotD26qreTHUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32789443952-al58jhtoo0gvfmupu1261ahdfljp0muu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
